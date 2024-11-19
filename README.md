@@ -1,6 +1,9 @@
 ## Herramientas curso de desarrollo seguro RadiumRocket
 ### [Link descarga Burp Suite Community](https://portswigger.net/burp/communitydownload) 
 
+### [Link guia instalacion Docker Desktop Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
+
+
 ### Ejecución contenedor Docker Juice-Shop
 ```
 docker run -d -e "CTF_KEY=someSecret"\
