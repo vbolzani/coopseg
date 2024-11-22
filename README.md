@@ -11,8 +11,13 @@ docker run -d -e "CTF_KEY=Sa2GCNMRT2inmk*suvmDWeqSGOh9Z^qOf5%C5R@w#042*t!WMY%"\
               -p 3000:3000\
                bkimminich/juice-shop
 ```
+onliner:
 ```
 docker run -d -e "CTF_KEY=Sa2GCNMRT2inmk*suvmDWeqSGOh9Z^qOf5%C5R@w#042*t!WMY%" -e "NODE_ENV=ctf" -p 3000:3000 bkimminich/juice-shop
+```
+escapado caracteres claves:
+```
+docker run -d -e "CTF_KEY=Sa2GCNMRT2inmk*suvmDWeqSGOh9Z^qOf5%C5R@w#042*t\!WMY%" -e "NODE_ENV=ctf" -p 3000:3000 bkimminich/juice-shop
 ```
 ### [Link a la plataforma de CTF](https://ctf.vbolzani.work)
 Utilizar nomenclatura de usuarios 'napellido' donde la 'n' corresponde a la primer letra del nombre de pila.
